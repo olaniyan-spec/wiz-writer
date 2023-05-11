@@ -1,0 +1,25 @@
+*, *::before, *::after{
+  list-style: none;
+  text-decoration: none;
+}
+
+
+body{
+position: relative;
+width: 1440px;
+height: 5826px;
+background: #FFFFFF;
+}
+.card{
+  position: absolute;
+  width: 361px;
+  height: 321px;
+  left: 120px;
+  top: 2551px;
+  background: #FAFBFB;
+  border-radius: 8px;
+}
+@media screen and (max-width:1024px){
+    body{
+      width: 90%;
+}}
