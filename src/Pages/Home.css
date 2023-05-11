@@ -6,15 +6,6 @@ left: 0px;
 top: 80px;
 background:url(../images/Rectangle.jpg) rgba(224, 224, 224, 0.32);
 }
-@media screen and (max-width:694px){
-    .container{
-        position: absolute;
-        width: 700px;
-        height: 386px;
-        left: 0px;
-        top: 0px;
-    }
-}
 .left-content h3{
 position: absolute;
 width: 380px;
@@ -28,20 +19,6 @@ font-size: 64px;
 line-height: 77px;
 color: #333333;
 }
-@media screen and (max-width: 694px){
-.left-content h3{
-    position: absolute;
-width: 184px;
-height: 33px;
-left: 96px;
-top: 120px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 30px;
-line-height: 109.02%;
-color: #333333;
-    }}
 .left-content p{
 position: absolute;
 width: 520px;
